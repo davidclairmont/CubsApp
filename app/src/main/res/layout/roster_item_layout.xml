@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:layout_editor_absoluteX="119dp"
+    tools:layout_editor_absoluteY="192dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ivPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:layout_marginBottom="8dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:background="@null"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvPlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@null"
+                android:text="@string/player_name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPlayerPosition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:text="@string/player_position"/>
+
+            <TextView
+                android:id="@+id/tvPlayerNumber"
+                android:text="@string/player_number"
+                android:layout_width="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvPlayerBatsThrows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/player_bats_throws"
+                android:background="@null"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

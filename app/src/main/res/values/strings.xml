@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CubsApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cubs App</string>
+    <string name="nav_header_subtitle"> </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_news">News</string>
+    <string name="menu_roster">Roster</string>
+
+    <string name="player_name">Player Name</string>
+    <string name="player_position">Position</string>
+    <string name="player_number">Number</string>
+    <string name="player_bats_throws">Bats/Throws</string>
+
+    <string name="go_cubs">Go Cubs Go!</string>
+    <string name="history">Today in Cubs History</string>
+</resources>

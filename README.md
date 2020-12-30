@@ -7,7 +7,7 @@ TO-DO:
 
 1.) Store pulled information in device to reduce the amount of requests to each site and load times.
 
-2.) Clean up code and improve on request response time. Also increase readability
+2.) Clean up code and improve on request response time. Also improve on code readability
 
 3.) Find a way to terminate active requests and threads when leaving a specific fragment
 
